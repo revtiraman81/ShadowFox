@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mumbai Indians Fan Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Mumbai Indians</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#players">Players</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#stats">Statistics</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#fanzone">Fan Zone</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <h1>Welcome to Mumbai Indians’ Official Fan Hub!</h1>
+      <p>Your ultimate destination for all things MI.</p>
+      <div class="next-match">
+        <h2>Next Match: MI vs CSK</h2>
+        <p>Date: August 12, 2025 | Location: Wankhede Stadium</p>
+      </div>
+    </section>
+
+    <!-- Players Section -->
+    <section id="players">
+      <h2>Player Profiles</h2>
+      <div class="players-grid">
+        <div class="player-card">
+          <img src="rohit-sharma.jpg" alt="Rohit Sharma" />
+          <h3>Rohit Sharma (Captain)</h3>
+          <p>Batsman | Matches: 230 | Runs: 6200</p>
+        </div>
+        <!-- Add more player-card elements -->
+      </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule">
+      <h2>Match Schedule</h2>
+      <table class="schedule-table">
+        <tr>
+          <th>Date</th><th>Opponent</th><th>Venue</th><th>Result</th>
+        </tr>
+        <tr>
+          <td>Aug 12</td><td>CSK</td><td>Wankhede</td><td>-</td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </table>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="stats">
+      <h2>Statistics</h2>
+      <ul>
+        <li>Total IPL Titles: 5</li>
+        <li>2024 Position: 3rd</li>
+        <li>Highest Run Scorer: Rohit Sharma (6200 runs)</li>
+        <li>Leading Wicket Taker: Jasprit Bumrah (175 wickets)</li>
+      </ul>
+    </section>
+
+    <!-- News Section -->
+    <section id="news">
+      <h2>Latest News</h2>
+      <div class="news-list">
+        <article>
+          <h3>MI signs new overseas bowler for 2025!</h3>
+          <p>Details about the new squad addition.</p>
+        </article>
+        <!-- More news articles -->
+      </div>
+    </section>
+
+    <!-- Fan Zone Section -->
+    <section id="fanzone">
+      <h2>Fan Zone</h2>
+      <form id="pollForm">
+        <p>Who will be the MVP this season?</p>
+        <label><input type="radio" name="mvp" value="Rohit"> Rohit Sharma</label>
+        <label><input type="radio" name="mvp" value="Bumrah"> Jasprit Bumrah</label><br>
+        <button type="submit">Vote</button>
+        <span id="pollMessage"></span>
+      </form>
+      <div class="social-links">
+        <a href="#">Twitter</a> | <a href="#">Instagram</a> | <a href="#">Official Forum</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Mumbai Indians Fan Website. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
